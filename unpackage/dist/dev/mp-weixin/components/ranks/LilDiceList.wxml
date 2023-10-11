@@ -1,0 +1,1 @@
+<view class="list data-v-155b9aec"><view wx:for="{{a}}" wx:for-item="v" wx:key="c" class="wrap data-v-155b9aec"><image class="dice data-v-155b9aec" src="{{v.a}}" mode="widthFix"></image><view wx:if="{{b}}" class="mask data-v-155b9aec" hidden="{{!v.b}}"></view></view></view>

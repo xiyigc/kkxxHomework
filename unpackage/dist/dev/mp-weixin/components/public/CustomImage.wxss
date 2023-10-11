@@ -1,0 +1,10 @@
+.bg.data-v-fddc7743 {
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  line-height: 40px;
+  text-align: center;
+}

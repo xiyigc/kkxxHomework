@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "fight/fight",
+        "settlement/settlement",
+        "rank/rank",
+        "detail/detail",
+        "main/main"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "van-toast": "/wxcomponents/dist/toast/index",
+    "van-icon": "/wxcomponents/dist/icon/index",
+    "van-button": "/wxcomponents/dist/button/index",
+    "van-popup": "/wxcomponents/dist/popup/index"
+  },
+  "window": {
+    "navigationBarTitleText": "uni-app",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#fff"
+  },
+  "permission": {}
+}

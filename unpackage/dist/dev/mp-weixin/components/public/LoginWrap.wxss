@@ -1,0 +1,55 @@
+.public.data-v-342c4f91 {
+  width: 284px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up.data-v-342c4f91 {
+  margin-top: 140px;
+  height: 160px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background: radial-gradient(circle at bottom left, transparent 12px, #fff 0) bottom left, radial-gradient(circle at bottom right, transparent 12px, #fff 0) bottom right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.up .avatar_wrap.data-v-342c4f91 {
+  background-color: transparent;
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.up .avatar_wrap .avatar.data-v-342c4f91 {
+  background-color: #faefff;
+  width: 100%;
+}
+.down.data-v-342c4f91 {
+  flex-direction: column;
+  height: 260px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: radial-gradient(circle at top left, transparent 12px, #fff 0) top left, radial-gradient(circle at top right, transparent 12px, #fff 0) top right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.down .nickname.data-v-342c4f91 {
+  font-size: 18px;
+  width: 200px;
+  height: 45px;
+  background-color: #faefff;
+  margin-top: 32px;
+  border-radius: 10px;
+  text-align: center;
+}
+.down .next_step.data-v-342c4f91 {
+  background-color: #822cba;
+  color: #fff;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 32px;
+}

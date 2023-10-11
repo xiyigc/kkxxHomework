@@ -1,0 +1,7 @@
+{
+	"name": "login",
+	"dependencies": {
+		"wx_module": "file:../common/wx_module"
+	},
+	"extensions": {}
+}

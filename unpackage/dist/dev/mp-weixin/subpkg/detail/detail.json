@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "back-ground": "../../components/public/BackGround",
+    "navi": "../../components/public/navi_top"
+  }
+}

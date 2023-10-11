@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "back-ground": "../../components/public/BackGround",
+    "custom-image": "../../components/public/CustomImage",
+    "gg-ranks": "../../components/ranks/ggRanks"
+  }
+}

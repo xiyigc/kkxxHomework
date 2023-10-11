@@ -1,0 +1,1 @@
+<view class="head data-v-d81f2713" style="{{d}}"><image class="data-v-d81f2713" style="height:100%;width:100%;overflow:hidden;border-radius:50%;border:.5px solid #efefef" src="{{a}}" mode="heightFix"></image><view class="nickname data-v-d81f2713" style="{{c}}">{{b}}</view></view>

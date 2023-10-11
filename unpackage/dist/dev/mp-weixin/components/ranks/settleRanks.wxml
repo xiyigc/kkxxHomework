@@ -1,0 +1,1 @@
+<view class="outer data-v-30bb55d3"><avatar wx:if="{{a}}" class="data-v-30bb55d3" u-i="30bb55d3-0" bind:__l="__l" u-p="{{a}}"></avatar><view class="num data-v-30bb55d3">{{b}}</view><view class="chip data-v-30bb55d3">{{c}}</view><lil-dice-list wx:if="{{d}}" class="data-v-30bb55d3" u-i="30bb55d3-1" bind:__l="__l" u-p="{{d}}"></lil-dice-list></view>

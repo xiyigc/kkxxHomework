@@ -1,0 +1,10 @@
+{
+  "name": "diceGame",
+  "dependencies": {
+    "dice_game": "file:../common/dice_game"
+  },
+  "extensions": {
+    "uni-cloud-jql": {},
+    "uni-cloud-push": {}
+  }
+}

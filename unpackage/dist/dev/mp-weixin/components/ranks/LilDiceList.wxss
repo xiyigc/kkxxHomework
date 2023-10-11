@@ -1,0 +1,28 @@
+.list.data-v-155b9aec {
+  display: flex;
+  width: 131px;
+  height: 55px;
+  align-items: center;
+}
+.wrap.data-v-155b9aec {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 2px;
+}
+.wrap .dice.data-v-155b9aec {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.wrap .mask.data-v-155b9aec {
+  background-color: rgba(252, 197, 38, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 22.5px;
+  height: 23px;
+}

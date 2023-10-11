@@ -1,0 +1,16 @@
+.outer.data-v-2bfe600b {
+  width: 46px;
+  height: 46px;
+  background-color: rgba(244, 244, 244, 0.2);
+  border-radius: 8px;
+  padding: 4px 0;
+  box-sizing: border-box;
+}
+.outer .w.data-v-2bfe600b {
+  color: #fff;
+  line-height: 19px;
+  height: 19px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}

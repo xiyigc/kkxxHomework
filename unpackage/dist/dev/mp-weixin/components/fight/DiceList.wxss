@@ -1,0 +1,25 @@
+.outer.data-v-b6e5161a {
+  height: 100%;
+  width: 240px;
+  display: flex;
+  align-items: center;
+}
+.outer .wrap.data-v-b6e5161a {
+  margin: 0 6px;
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+.outer .wrap .dice.data-v-b6e5161a {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+}
+.outer .wrap .mask.data-v-b6e5161a {
+  background-color: rgba(252, 197, 38, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

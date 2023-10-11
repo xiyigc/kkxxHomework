@@ -1,0 +1,44 @@
+.wrap.data-v-0466e97e {
+  width: 310px;
+  height: 240px;
+}
+.wrap .item.data-v-0466e97e {
+  color: #8E38A2;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 60px;
+  justify-content: space-evenly;
+}
+.wrap .nickname.data-v-0466e97e {
+  width: 110px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 10px;
+  text-align: center;
+}
+.wrap .chip.data-v-0466e97e {
+  width: 60px;
+  text-align: center;
+}
+.btn.data-v-0466e97e {
+  width: 140px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #8E38A2;
+  border-radius: 10px;
+  letter-spacing: 2.5px;
+}

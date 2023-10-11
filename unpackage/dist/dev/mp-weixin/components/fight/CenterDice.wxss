@@ -1,0 +1,21 @@
+.outer.data-v-fd577d0a {
+  width: 320px;
+  height: 150px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.outer .pub.data-v-fd577d0a {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.outer .dice.data-v-fd577d0a {
+  height: 50px;
+  background-color: #fff;
+  width: 50px;
+  border-radius: 8px;
+}

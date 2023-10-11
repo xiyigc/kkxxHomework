@@ -1,0 +1,1 @@
+<view class="outer data-v-354af9de"><avatar wx:if="{{a}}" class="data-v-354af9de" u-i="354af9de-0" bind:__l="__l" u-p="{{a}}"></avatar><view class="num data-v-354af9de" style="margin-left:-16px">{{b}}</view><view class="num data-v-354af9de">{{c}}</view></view>

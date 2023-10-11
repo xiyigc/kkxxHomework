@@ -1,0 +1,43 @@
+.rankItem.data-v-d27437b7 {
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1px;
+  display: flex;
+  color: #8833a3;
+  font-size: 17px;
+  justify-content: space-between;
+}
+.rankItem .avatar.data-v-d27437b7 {
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rankItem .nickname.data-v-d27437b7 {
+  margin-left: 5px;
+  max-width: 85px;
+  min-width: 60px;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.rankItem .num.data-v-d27437b7 {
+  margin-left: 5px;
+  width: 50px;
+  line-height: 40px;
+  text-align: left;
+}
+.rankItem .icon.data-v-d27437b7 {
+  line-height: 35px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  height: 35px;
+  width: 50px;
+  background-size: 100%;
+  background-position: center;
+}

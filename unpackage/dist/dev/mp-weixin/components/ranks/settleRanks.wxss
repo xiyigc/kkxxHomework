@@ -1,0 +1,17 @@
+.outer.data-v-30bb55d3 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.outer .num.data-v-30bb55d3 {
+  margin-left: 22px;
+  width: 36px;
+  text-align: center;
+}
+.outer .chip.data-v-30bb55d3 {
+  width: 116px;
+  margin-left: 3px;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "lil-dice-list": "./LilDiceList",
+    "avatar": "../fight/Avatar"
+  }
+}

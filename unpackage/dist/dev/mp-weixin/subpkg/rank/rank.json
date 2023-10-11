@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "navi": "../../components/public/navi_top",
+    "rank-item": "../../components/ranks/rankItem"
+  }
+}

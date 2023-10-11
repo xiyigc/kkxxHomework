@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "back-ground": "../public/BackGround",
+    "navi": "../public/navi_top",
+    "user-item": "../public/UserItem",
+    "dice-center": "./CenterDice",
+    "dice-place": "./DicePlace",
+    "dice-list": "./DiceList",
+    "rect": "./Rect",
+    "avatar": "./Avatar"
+  }
+}

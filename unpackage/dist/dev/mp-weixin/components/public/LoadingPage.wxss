@@ -1,0 +1,41 @@
+.loading.data-v-00a0f320 {
+  height: 150px;
+  width: 240px;
+  position: absolute;
+  bottom: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.loading .spin.data-v-00a0f320 {
+  width: 80px;
+  animation: rotate-00a0f320 1.5s linear infinite;
+  transform-origin: center;
+}
+@keyframes rotate-00a0f320 {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+.loading .loading_bar.data-v-00a0f320 {
+  width: 100%;
+  height: 10px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwgAAAAfCAYAAABDPuqpAAAACXBIWXMAAArEAAAKxAFmbYLUAAAEDUlEQVR4nO3dz28UZRzH8ffAxISD0sbWRi5UUvGkRNmEiIkmRkUOGD2poTSaJh68exG8wd9AIhJ/FA8aE4kmWkqMoSaNDa2xHrGBclADbWiphBK2M+vh6cZ1d7ZQ3JmV+n6d2u/zPLOf4z7ZeZ5vVBmrsAYdQAnoAzavZaEkSZKkQl0FpoEJYOF2F8WV9JYbhE1AP/AGsAvYeEfxJEmSJLVDAowDHwEngKXVJkfJmaTpGDAIHAZ6WpdPkiRJUptcAg4Bx4HMXwqi8vflrHoXYXexJ7dokiRJktplBNgPzNUPRDdP36yv9QKngO25x5IkSZLULucIPwjM1BajG8M3av/vBsYIh5CbuQiMAr+3Np8kSZKkFtoCPA1sXWXONLAbmK0W4nQ5rf4dAUM03xycBI4QTkFLkiRJujuUgIPAyxljfYQ9wF5WziRE105eqw4OAh9kLPqTcIvRVy0OKkmSJKk4LxHOGd+bMfYWcAwgWvxiEcJVphdovK3oCvAsMJVbTEmSJElF2QF8B9xfV78EPAQsxelyAjBA4+agQjjZ7OZAkiRJWh+mCG8HfUM4YlDVQ+h7drR6BmEgY/HnwHDOASVJkiQVaxj4DHitrt4PHI3mPpztJJxaru+QXAIm888nSZIkqWCP0fimUAp0xUk5KdG4ObiImwNJkiRpvfqF0AehtvfZBqAUp+V0W8aC0UJiSZIkSWqXcRqbI2+L03LSmTH5twICSZIkSWqfrO/8nXHyd6M0SZIkSf8fVzNqm+O0nGRNvifnMJIkSZLaqzujthgn5XQ+Y2BL3mkkSZIktVXWd/4rcVpOzmcMPJl3GkmSJElt9XhG7XyclNMJwp2nG2oGtgJPAD8VkUySJElSoR4FHqmrpcBEnJaTeeBHYHfdhHeA1wsIJ0mSJKlY72bUxoH5OCmnAEM0bhBeBT4mtGKWJEmStD68SPiuX28IIJp6+2eATcAFoKdu0hzwHI1tmCVJkiTdfXYAp2m8wegy0AssVa85XQLeA96vm9hF6KrcD3ydZ1JJkiRJudoHnADuyxg7RNgTEE2+ebZajIBvgT1NHvglcASYbGlMSZIkSXnaCRwEXmkyPkJ47agCEJ09MF472A2MAX2rfMAMcAb4A1j4V1ElSZIk5aEDeBB4hvDqUDPThLPIs9VCnC5XaifMAs8Dp4DtTR7Se4sPkSRJkvTfd47w9tBsbTFOk7R+4gzwFPAp8EIRySRJkiQVagTYT7iU6B/iynLDBoGViXuBQeAw8ECe6SRJkiQV4jLhQPJxQmO0BnGaVrLqrCw4Rvgl4QAwAOwCNrY8piRJkqS8pITGyJ8Qeh1cX21y9MO+0bU8vBMoAQ8TrkfquKOIkiRJkvK0ACwCvwITwPztLvwL6MzclNHD2IIAAAAASUVORK5CYII=);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.loading .loading_bar .progress.data-v-00a0f320 {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(to right, #fdc1fd, #c652c4);
+  transition: width 1s ease;
+}

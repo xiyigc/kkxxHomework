@@ -1,0 +1,20 @@
+.ranks.data-v-0efad099 {
+  position: absolute;
+  bottom: 94px;
+  width: 260px;
+  height: 420px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.bg.data-v-0efad099 {
+  position: absolute;
+  background-image: url(https://mp-3e82514e-b5f6-4c2f-8325-1d741d3c83ac.cdn.bspapp.com/page/jf.png);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+}

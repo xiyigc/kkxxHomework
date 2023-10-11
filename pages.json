@@ -1,0 +1,62 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle": "custom",
+			"enablePullDownRefresh": true
+		}
+	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+				"path": "fight/fight",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}, {
+				"path": "settlement/settlement",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "rank/rank",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "detail/detail",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "main/main",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTitleText": "uni-app",
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#fff",
+		"usingComponents": {
+			"van-toast": "/wxcomponents/dist/toast/index",
+			"van-icon": "/wxcomponents/dist/icon/index",
+			"van-button": "/wxcomponents/dist/button/index",
+			"van-popup": "/wxcomponents/dist/popup/index"
+		}
+	},
+	"uniIdRouter": {}
+}
+}
