@@ -26,5 +26,5 @@ const _sfc_main = {
     };
   }
 };
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-155b9aec"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/components/ranks/LilDiceList.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-155b9aec"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/components/ranks/LilDiceList.vue"]]);
 wx.createComponent(Component);

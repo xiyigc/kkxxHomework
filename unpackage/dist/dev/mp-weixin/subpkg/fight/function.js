@@ -78,6 +78,27 @@ const applyAiAction = async (data) => {
     data.playerInfo[1].lockerList,
     aiMaskList
   );
+}, control_progress = async (data, callback) => {
+  let width = 10, interval = null;
+  data.progress.width = width + "%";
+  data.loading = true;
+  await new Promise((resolve) => setTimeout(resolve, 800));
+  async function frame() {
+    if (width >= 97) {
+      clearInterval(interval);
+      if (callback)
+        await callback(data);
+      data.progress.width = "99%";
+      await new Promise((resolve) => setTimeout(resolve, 600));
+      data.loading = false;
+      data.progress.width = "10%";
+      width = 10;
+    } else {
+      width++;
+      data.progress.width = width + "%";
+    }
+  }
+  interval = setInterval(frame, data.rate);
 }, settlementHandler = (data) => {
   let maxScore = 0, totalMagnification = parseInt(data.gameInfo.totalMagnification), totalChip = 0;
   data.playerInfo.forEach((v, i) => {
@@ -151,6 +172,9 @@ const complexAction = async (data, idx) => {
   let gameInfo = {
     ...option
   }, playerInfo = [];
+  if (mode == 3)
+    await control_progress(data, async () => {
+    });
   for (let i = 0; i < playerCount; i++) {
     playerInfo.push({
       nick_name: "玩家",

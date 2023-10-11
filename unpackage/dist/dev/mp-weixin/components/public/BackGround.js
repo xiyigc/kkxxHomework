@@ -24,5 +24,5 @@ const _sfc_main = {
     };
   }
 };
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-e8d4f88d"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/components/public/BackGround.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-e8d4f88d"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/components/public/BackGround.vue"]]);
 wx.createComponent(Component);

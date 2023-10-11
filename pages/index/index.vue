@@ -36,11 +36,11 @@
 			});
 			return;
 		}
-		Toast.loading({
-			message: '加载中...',
-			forbidClick: true,
-			duration: 0,
-		});
+		// Toast.loading({
+		// 	message: '加载中...',
+		// 	forbidClick: true,
+		// 	duration: 0,
+		// });
 		let is_suceess = true;
 		let fileID = null;
 		if (data.isUpload) {

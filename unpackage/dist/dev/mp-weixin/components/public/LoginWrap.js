@@ -17,5 +17,5 @@ const _sfc_main = {
     };
   }
 };
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-342c4f91"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/components/public/LoginWrap.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-342c4f91"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/components/public/LoginWrap.vue"]]);
 wx.createComponent(Component);

@@ -81,16 +81,17 @@ const applyAiAction = async (data) => {
 		aiMaskList
 	);
 }, control_progress = async (data, callback) => {
-	data.progress.width = width + "%";
-	data.loading = true;
 	let width = 10,
 		interval = null;
+	data.progress.width = width + "%";
+	data.loading = true;
+	await new Promise((resolve) => setTimeout(resolve, 800))
 	async function frame() {
 		if (width >= 97) {
 			clearInterval(interval);
 			if (callback) await callback(data);
 			data.progress.width = "99%";
-			await new Promise((resolve) => setTimeout(resolve, 400));
+			await new Promise((resolve) => setTimeout(resolve, 600));
 			data.loading = false;
 			data.progress.width = "10%";
 			width = 10;
@@ -247,6 +248,7 @@ export const complexAction = async (data, idx) => {
 		callback = async (data) => {
 			for (let j = 0; j < 30; j++) await new Promise(resolve => setTimeout(resolve, 1000))
 		};
+	if (mode == 3) await control_progress(data, async () => {})
 	// if (mode == 3) {
 	// 	try {
 	// 		await control_progress(data, callback);

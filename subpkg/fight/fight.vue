@@ -19,7 +19,8 @@
 		nextGame,
 		finishSelect,
 		complexAction,
-		getInitRelateInfo
+		getInitRelateInfo,
+		control_progress
 	} from "./function";
 	import {
 		getMasks,
@@ -40,6 +41,9 @@
 			prepared: false,
 			selectMagnification: false,
 			magnificationList: [],
+			progress: {
+				width: "10%",
+			},
 		}), dataPage = reactive({
 			magnification: [{
 				"text": "不加倍",
@@ -55,10 +59,7 @@
 				"value": 3,
 			}],
 			loading: false,
-			progress: {
-				width: "10%",
-			},
-			rate: 30,
+			rate: 60,
 		});
 	onLoad(async (option) => {
 		commit('resetPlayerRanks');

@@ -36,7 +36,7 @@ const _sfc_main = {
     };
   }
 };
-const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/App.vue"]]);
+const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
   app.use(store_index.store);

@@ -47,5 +47,5 @@ const _sfc_main = {
     };
   }
 };
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-b6e5161a"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/components/fight/DiceList.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-b6e5161a"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/components/fight/DiceList.vue"]]);
 wx.createComponent(Component);

@@ -35,11 +35,6 @@ const _sfc_main = {
         });
         return;
       }
-      wxcomponents_dist_toast_toast.Toast.loading({
-        message: "加载中...",
-        forbidClick: true,
-        duration: 0
-      });
       let is_suceess = true;
       let fileID = null;
       if (data.isUpload) {
@@ -170,5 +165,5 @@ const _sfc_main = {
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-1cf27b2a"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/pages/index/index.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-1cf27b2a"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/pages/index/index.vue"]]);
 wx.createPage(MiniProgramPage);

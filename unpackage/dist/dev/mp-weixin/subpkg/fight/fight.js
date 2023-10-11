@@ -33,7 +33,10 @@ const _sfc_main = {
       maskList: Array(5).fill(false),
       prepared: false,
       selectMagnification: false,
-      magnificationList: []
+      magnificationList: [],
+      progress: {
+        width: "10%"
+      }
     }), dataPage = common_vendor.reactive({
       magnification: [{
         "text": "不加倍",
@@ -49,10 +52,7 @@ const _sfc_main = {
         "value": 3
       }],
       loading: false,
-      progress: {
-        width: "10%"
-      },
-      rate: 30
+      rate: 60
     });
     common_vendor.onLoad(async (option) => {
       commit("resetPlayerRanks");
@@ -195,5 +195,5 @@ const _sfc_main = {
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-4a55c990"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/subpkg/fight/fight.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-4a55c990"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/subpkg/fight/fight.vue"]]);
 wx.createPage(MiniProgramPage);

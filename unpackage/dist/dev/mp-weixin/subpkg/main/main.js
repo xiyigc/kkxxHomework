@@ -145,5 +145,5 @@ const _sfc_main = {
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-27525df0"], ["__file", "D:/Myecharts/wx/WeChat_app/gamble/All_in_copy/subpkg/main/main.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__scopeId", "data-v-27525df0"], ["__file", "D:/Myecharts/wx/WeChat_app/All_in_or_nothing/subpkg/main/main.vue"]]);
 wx.createPage(MiniProgramPage);
