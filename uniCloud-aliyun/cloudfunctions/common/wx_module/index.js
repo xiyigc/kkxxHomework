@@ -1,7 +1,8 @@
 let jwt = require('jsonwebtoken');
-
-const appId = 'wxcc79a498ceb531de';
-const appSecret = 'e3e1b5c993c5bc4ab8ceb6a696c18318';
+const {
+	appId,
+	appSecret,
+} = require('account')
 
 const db = uniCloud.database();
 async function requestNewAccessToken() {
@@ -107,6 +108,6 @@ module.exports = {
 	getWXACodeUnlimited: getWXACodeUnlimited,
 	getToken: getToken,
 	verifyToken: verifyToken,
-	appId: appId,
-	appSecret: appSecret
+	appId,
+	appSecret
 }

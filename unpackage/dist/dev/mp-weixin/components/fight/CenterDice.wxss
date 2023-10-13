@@ -15,7 +15,7 @@
 }
 .outer .dice.data-v-fd577d0a {
   height: 50px;
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.5);
   width: 50px;
   border-radius: 8px;
 }

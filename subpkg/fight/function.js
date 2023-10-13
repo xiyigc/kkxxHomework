@@ -321,7 +321,6 @@ export const complexAction = async (data, idx) => {
 		playerInfo[1].avatar_url = 'https://mp-3e82514e-b5f6-4c2f-8325-1d741d3c83ac.cdn.bspapp.com/avatar/8.png';
 		playerInfo[0].avatar_url =
 			'https://mp-3e82514e-b5f6-4c2f-8325-1d741d3c83ac.cdn.bspapp.com/cloudstorage/30caf785-9486-47f6-a3c4-618ffd0f487a.jpg';
-
 	}
 	playerInfo = playerInfo.map((v, i) => {
 		if (mode == 1) {

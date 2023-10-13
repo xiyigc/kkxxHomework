@@ -2,3 +2,5 @@
 /node_modules/**
 /wxcomponents/**
 /uni_modules/**
+manifest.json
+/uniCloud/cloudfunctions/common/account/**

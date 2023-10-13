@@ -19,8 +19,7 @@
 		nextGame,
 		finishSelect,
 		complexAction,
-		getInitRelateInfo,
-		control_progress
+		getInitRelateInfo
 	} from "./function";
 	import {
 		getMasks,

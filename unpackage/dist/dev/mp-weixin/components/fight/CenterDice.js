@@ -8,7 +8,9 @@ const _sfc_main = {
     }
   },
   setup(__props) {
-    const { state } = common_vendor.useStore();
+    const {
+      state
+    } = common_vendor.useStore();
     return (_ctx, _cache) => {
       return {
         a: common_vendor.f(__props.diceList, (v, i, i0) => {

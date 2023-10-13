@@ -156,6 +156,21 @@ const nextDecision = (states, state, lockerList, threshold = 0) => {
 		state,
 	};
 };
+
+const finalAction = (
+	states,
+	myDiceList, myLockerList, mymagnification,
+	enemyDiceList, enemyLockerList, enemymagnification,
+	round
+) => {
+	const {
+		bestAction: myBestAction,
+		bestScore: myBestScore
+	} = nextDecision(states, myDiceList, myLockerList), {
+		bestAction: enemyBestAction,
+		bestScore: enemyBestScore
+	} = nextDecision(states, enemyDiceList, enemyLockerList);
+};
 module.exports = {
 	getNewDice,
 	getScore,
