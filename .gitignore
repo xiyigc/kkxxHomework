@@ -3,4 +3,4 @@
 /wxcomponents/**
 /uni_modules/**
 manifest.json
-/uniCloud/cloudfunctions/common/account/**
+/uniCloud-aliyun/cloudfunctions/common/account/**
